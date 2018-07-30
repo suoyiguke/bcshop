@@ -1,0 +1,408 @@
+/**
+	必填提示
+*/
+label.error{
+	color:red;
+	padding-left:10px;
+	background:url('../imgs/error.gif') no-repeat 4px 3px;
+}
+/**
+	导航
+*/
+div.nav {
+	padding: 7px 0 7px 15px;
+	background: url('../imgs/backX.gif') repeat-x;
+	background-position: 0px -48px;
+}
+div.toolbar {
+	background: url('../imgs/backX.gif') repeat-x;
+	background-position: 0 -104px;
+	padding: 5px 0 5px 10px;
+}
+/**
+	选择弹出框
+*/
+button.browser {
+	width: 16px;
+	height: 16px;
+	position: relative;
+	top: 3px;
+	background: url('../imgs/browser.gif') no-repeat;
+	cursor:pointer;
+	margin-right:5px;
+}
+/*删除*/
+a.delete{
+	display:inline-block;
+	width:13px;
+	height:13px;
+	background:url('../imgs/delete.gif') no-repeat;
+	margin-left:2px;
+}
+/**
+按钮
+*/
+.btn {
+	background: url('../imgs/backX.gif') repeat-x;
+	background-position: 0px -166px;
+	border: 1px solid #8c9abb;
+	padding: 2px 5px;
+	margin-left:3px;
+}
+
+/**
+登录页面
+*/
+.logo-wrap {
+     background-image: url(../imgs/login-bg.jpg);
+     background-size: 100% 100%;
+     position: absolute;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+ }
+.login-form {
+    width: 345px;
+    margin: 0 auto;
+    position: relative;
+    top: 15.625%
+}
+.login-box {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 35px 30px 0px 30px;
+}
+
+.login-box h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial;
+    padding-bottom: 30px;
+    font-weight: normal;
+    color: #45a2b8;
+}
+.login-box .form-group {
+    margin-bottom: 25px;
+    position: relative;
+}
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    background: #eaeaec;
+    border-radius: 4px;
+    padding-left:12px;
+    width:100%;
+    border: none;
+    outline: 0;
+    box-shadow: none;
+    height: 38px;
+}
+.login-box input[type="text"]:focus,
+.login-box input[type="password"]:focus {
+    outline: 0;
+    box-shadow: none !important;
+}
+.login-box .info {
+    text-align: center;
+    color: #ccc;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.btn-fluid {
+    width: 100%;
+    height: 42px;
+    font-size: 16px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #428bca;
+    border-color: transparent;
+}
+.btn-primary:hover {
+    color: #f2f2f2;
+    background-color: #357ebd;
+    border-color: transparent;
+}
+
+/**
+搜索条件
+*/
+.searchbar {
+	padding: 5px;
+}
+
+.searchbar table {
+	width: 100%;
+}
+
+.searchbar table th {
+	font-weight: normal;
+}
+.searchbar table tr{
+	height:30px;
+	line-height:30px;
+}
+.searchbar tr input[type="text"],div.tabContent tr input[type="password"]
+	{
+	height: 20px;
+	width: 180px;
+}
+
+.searchbar table td {
+	vertical-align: middle;
+}
+/**
+navi-tab的tab导航
+*/
+div.tab{
+	padding:5px;
+}
+div.tab ul{
+	left:5px;
+	position:relative;
+	z-index:1;
+	border-left:1px solid #9ab6cd;
+}
+div.tab ul li.first{
+	border-left:1px solid #9ab6cd;
+}
+div.tab ul li{
+	float: left;
+	list-style: none;
+	border-top:1px solid #9ab6cd;
+	border-right:1px solid #9ab6cd;
+}
+div.tab ul li a{
+	color:#333;
+	display:block;
+	padding:4px 15px;
+	text-decoration:none;
+}
+div.tab ul li.active a{
+	border-top: 0px;
+	background:url('../imgs/backX.gif') repeat-x;
+	background-position: 0 -1382px;
+	font-weight: 600;
+	border-bottom: 0;
+}
+div.tab .tabContent {
+	border: 1px solid #9ab6cd;
+	clear: both;
+	padding:3px 3px 5px 5px;
+	position: relative;
+	top: -1px;
+}
+div.tab .noPadding {
+	padding:0px;
+}
+
+/**
+	新增、修改样式
+*/
+.addTable tr{
+	line-height:25px;
+}
+.addTable tr input[type="text"],.addTable tr input[type="password"],.addTable tr textarea{
+	height:20px;
+	width:70%;
+}
+.addTable tr textarea{
+	height:50px;
+}
+.addTable tr:hover{
+	background:#CFE2FF;
+}
+.addTable th,div.tabContent td{
+	letter-spacing:1px;
+	vertical-align: middle;
+}
+.addTable th{
+	font-weight:normal;
+	width:12%;
+}
+/**
+	显示样式
+*/
+.detailTable tr{
+	line-height:25px;
+}
+.detailTable th,.detailTable td{
+	border: 1px solid #E6ECF6;
+	padding-left:5px;
+}
+.detailTable th,.detailTable td.fieldName{
+	font-weight:normal;
+	background: #F8FAFC;
+	width:20%;
+}
+.detailTable tr.on{
+    background:rgb(235, 253, 189) !important;
+}
+.detailTable tr.on th{
+	background:rgb(235, 253, 189);
+}
+.detailTable tr.hover{
+  	background:#F8FAFC;
+ }
+/**
+表格数据列表样式
+*/
+.tabList tr.on{
+    background:rgb(235, 253, 189) !important;
+}
+.tabList tr.hover{
+	background:#F8FAFC;
+}
+.selectList tr:hover{
+	background:#fff !important;
+}
+.tabList {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+}
+.tabList a{
+	text-decoration:underline;
+}
+.tabList a:hover{
+	text-decoration:none;
+}
+.tabList th,.tabList td,.selectList td{
+	font-weight: normal;
+	color: #000000;
+	border: 1px solid #E6ECF6;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 5px;
+	font-weight: normal;
+}
+.tabList th {
+	height: 24px;
+	background: url('../imgs/backX.gif') repeat-x scroll 0 0
+		rgba(0, 0, 0, 0);
+	background-position: 0 -139px;
+}
+.tabList td,.selectList td {
+	border-collapse: collapse;
+	height: 22px;
+	line-height: 22px;
+}
+.tabList tr input[type="text"],.tabList tr input[type="password"],.tabList tr textarea{
+	width:80%;
+}
+.selectList td{
+	border: 1px solid #9ab6cd;
+}
+.selectList td a{
+	color:blue;
+	padding-left:10px;
+}
+
+
+/**圆头像 begin*/
+.roundImg {
+	position: relative;
+	float: left;
+	background: #fff;
+	margin-top:9px;
+}
+.roundImg img {
+	width: 53px;
+	height: 53px;
+}
+
+.roundImg .name {
+	text-align: center;
+	margin-top: 5px;
+}
+.roundImg .cover {
+	background-image: url('../imgs/portrait.png');
+	background-position: -76px -663px;
+	position: absolute;
+	width: 57px;
+	height: 57px;
+	background-repeat: no-repeat;
+	display: block;
+	top: 0;
+	left: 0;
+}
+
+
+a.reply-topic{
+	background:url('../imgs/smallIcon.png');
+	background-position:-440px 0;
+	width:16px;
+	height:16px;
+	display:inline-block;
+}
+a.del-topic{
+	background:url('../imgs/smallIcon.png');
+	background-position:-440px -28px;
+	width:14px;
+	height:14px;
+	display:inline-block;
+	top:4px;
+	position:relative;
+}
+.name-topic{
+	color:#5690D2;
+}
+/**圆头像 end*/
+/**
+	分页样式
+**/
+.pagination {
+	padding: 5px;
+	text-align: center;
+}
+.pagination label {
+	display: inline-block;
+	margin-left: 2px;
+	height: 16px;
+	border: 1px #c4d5ee solid;
+}
+.pagination select{
+	border: 1px #c4d5ee solid;
+}
+label.first,label.prev,label.next,label.last {
+	width: 16px;
+	height: 16px;
+}
+label.first {
+	background: url('../imgs/page-first.gif');
+}
+label.last {
+	background: url('../imgs/page-last.gif');
+}
+label.prev {
+	background: url('../imgs/page-prev.gif');
+}
+label.next {
+	background: url('../imgs/page-next.gif');
+}
+label.first_disable {
+	background: url('../imgs/page-first-disabled.gif');
+}
+label.last_disable {
+	background: url('../imgs/page-last-disabled.gif');
+}
+label.prev_disable {
+	background: url('../imgs/page-prev-disabled.gif');
+}
+label.next_disable {
+	background: url('../imgs/page-next-disabled.gif');
+}
+.pagination label a {
+	padding: 2px 5px;
+	line-height: 16px;
+	color: #000;
+	text-decoration: none;
+}
+.pagination label.active {
+	border: none;
+}
+.pagination label.active a {
+	color: #2a6aa9;
+}

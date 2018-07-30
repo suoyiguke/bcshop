@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "text": "图书、音像、电子书刊",
+    "state": "closed",
+    "pid": 0
+  },
+  {
+    "id": 74,
+    "text": "家用电器",
+    "state": "closed",
+    "pid": 0
+  },
+  {
+    "id": 161,
+    "text": "电脑、办公",
+    "state": "closed",
+    "pid": 0
+  },
+  {
+    "id": 249,
+    "text": "个护化妆",
+    "state": "closed",
+    "pid": 0
+  },
+  {
+    "id": 290,
+    "text": "钟表",
+    "state": "closed",
+    "pid": 0
+  },
+  {
+    "id": 296,
+    "text": "母婴",
+    "state": "closed",
+    "pid": 0
+  },
+  {
+    "id": 378,
+    "text": "食品饮料、保健食品",
+    "state": "closed",
+    "pid": 0
+  },
+  {
+    "id": 438,
+    "text": "汽车用品",
+    "state": "closed",
+    "pid": 0
+  },
+  {
+    "id": 495,
+    "text": "玩具乐器",
+    "state": "closed",
+    "pid": 0
+  },
+  {
+    "id": 558,
+    "text": "手机",
+    "state": "closed",
+    "pid": 0
+  },
+  {
+    "id": 580,
+    "text": "数码",
+    "state": "closed",
+    "pid": 0
+  },
+  {
+    "id": 633,
+    "text": "家居家装",
+    "state": "closed",
+    "pid": 0
+  },
+  {
+    "id": 699,
+    "text": "厨具",
+    "state": "closed",
+    "pid": 0
+  },
+  {
+    "id": 749,
+    "text": "服饰内衣",
+    "state": "closed",
+    "pid": 0
+  },
+  {
+    "id": 865,
+    "text": "鞋靴",
+    "state": "closed",
+    "pid": 0
+  },
+  {
+    "id": 903,
+    "text": "礼品箱包",
+    "state": "closed",
+    "pid": 0
+  },
+  {
+    "id": 963,
+    "text": "珠宝",
+    "state": "closed",
+    "pid": 0
+  },
+  {
+    "id": 1031,
+    "text": "运动健康",
+    "state": "closed",
+    "pid": 0
+  },
+  {
+    "id": 1147,
+    "text": "彩票、旅行、充值、票务",
+    "state": "closed",
+    "pid": 0
+  }
+]

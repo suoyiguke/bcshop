@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+	<!-- 缓存不够用时，保存到磁盘的路径 -->
+	<diskStore path="java.io.tmpdir"/>
+	<!-- 
+	eternal:缓存中是否允许销毁，如果为true则永不释放
+	timeToLiveSeconds:存活时间
+	timeToIdleSeconds:过了存活期，再延迟的时间
+	 -->
+	<defaultCache 
+	maxElementsInMemory="10000" 
+	eternal="false" 
+	timeToIdleSeconds="180" 
+	timeToLiveSeconds="180" 
+	overflowToDisk="true"
+	diskPersistent="false"
+	diskExpiryThreadIntervalSeconds="120"/>
+</ehcache>

@@ -1,0 +1,231 @@
+@charset "utf-8";
+
+/*-- CSS Reset 开始 --*/
+html,body,div,span,label,a,ul,li,ol,caption,table,th,td,frame,iframe,* {
+	padding: 0;
+	margin: 0;
+}
+
+body,img {
+	border: 0;
+	border: none;
+}
+
+ol,ul,li {
+	list-style: none;
+}
+
+button {
+	border: 0;
+	cursor: pointer;
+}
+
+html {
+	overflow-y: auto;
+	overflow-x:hidden; 
+}
+
+* html{
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+body {
+	background-color: #ffffff;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	empty-cells: show;
+}
+
+table {
+	width: 100%;
+}
+
+th,td {
+}
+
+th {
+	text-align: left;
+}
+
+/*-- CSS Reset 结束 --*/
+/*-- 表单 Css Reset --*/
+body, div, table, th, td, ul, li, p, span, a, label,button {
+	font-family: 微软雅黑,verdana,"宋体";
+	font-size: 12px;
+}
+input[type="text"],input[type="password"] {
+	height: 18px;
+}
+input[type="text"],input[type="password"],select,textarea{
+	border:1px solid #9ab6cd;
+}
+/*-- 通用Class 开始 --*/
+iframe {
+	border: 0;
+	width: 100%;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	
+}
+.clear{
+	clear:both;
+}
+.mt5{
+	margin-top:5px;
+}
+.ml5{
+	margin-left:5px;
+}
+.mb5{
+	margin-bottom:5px;
+}
+.mr5{
+	margin-right:5px;
+}
+.pt5{
+	padding-top:5px;
+}
+.pl5{
+	padding-left:5px;
+}
+.pb5{
+	padding-bottom:5px;
+}
+.pr5{
+	padding-right:5px;
+}
+.mt10{
+	margin-top:10px;
+}
+.ml10{
+	margin-left:10px;
+}
+.mb10{
+	margin-bottom:10px;
+}
+.mr10{
+	margin-right:10px;
+}
+.pt10{
+	padding-top:10px;
+}
+.pl10{
+	padding-left:10px;
+}
+.pb10{
+	padding-bottom:10px;
+}
+.pr10{
+	padding-right:10px;
+}
+.mt15{
+	margin-top:15px;
+}
+.ml15{
+	margin-left:15px;
+}
+.mb15{
+	margin-bottom:15px;
+}
+.mr15{
+	margin-right:15px;
+}
+.pt15{
+	padding-top:15px;
+}
+.pl15{
+	padding-left:15px;
+}
+.pb15{
+	padding-bottom:15px;
+}
+.pr15{
+	padding-right:15px;
+}
+.mt20{
+	margin-top:20px;
+}
+.ml20{
+	margin-left:20px;
+}
+.mb20{
+	margin-bottom:20px;
+}
+.mr20{
+	margin-right:20px;
+}
+.pt20{
+	padding-top:20px;
+}
+.pl20{
+	padding-left:20px;
+}
+.pb20{
+	padding-bottom:20px;
+}
+.pr20{
+	padding-right:20px;
+}
+.bg_white{
+	background:white;
+}
+.bg_gray{
+	background:#F4F4F4;
+}
+.bg_f60{
+	background:#f60;
+}
+.bg_green {
+    background: #57930d;
+}
+.bg_blue {
+    background: #5095cd;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.fb{
+	font-weight:bold;
+}
+.f14{
+	font-size:14px;
+}
+.f16{
+	font-size:16px;
+}
+.f18{
+	font-size:18px;
+}
+.red{
+	color:red;
+}
+.green{
+	color:green;
+}
+.blue{
+	color: blue;
+}
+.tc{
+	text-align:center;
+}
+.hide{
+	display:none;
+}
+.show{
+	display:block;
+}
+/*-- 通用Class 结束 --*/

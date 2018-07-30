@@ -1,0 +1,84 @@
+.dynamicTable{
+	width:99%;
+	margin:0 auto;
+}
+.dynamicTable .dynamicTableCaption {
+	text-align:center;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 18px;
+}
+.layoutTable {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	font-size: 12px;
+	font-family: verdana, "宋体";
+}
+
+.layoutTable td {
+	font-weight: normal;
+	color: #000000;
+	border: 1px solid #E6ECF6;
+	text-align: left;
+	vertical-align: middle;
+	padding: 0px 5px;
+	font-weight: normal;
+	height: 25px;
+}
+
+.layoutTable td.fieldName {
+	background: #f7f6fc;
+	padding-left: 15px;
+}
+
+.layoutTable td.fieldValue {
+	background-color: #fdfdfd;
+}
+
+.layoutTable input[type='text'],.layoutTable input[type='password'] {
+	border: 1px solid #9ab6cd;
+	height: 18px;
+	width:70%;
+}
+.layoutTable th{
+	height: 24px;
+	background: url('../imgs/backX.gif') repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+	background-position: 0 -139px;
+	border: 1px solid #E6ECF6;
+	font-weight:normal;
+	padding-left:5px;
+}
+.mainTableDiv{
+	padding-bottom:20px;
+}
+.mainTableDiv table.mainTable{
+	margin-bottom:15px
+}
+.detailTableDiv{
+	overflow-x:auto;
+	padding-bottom:80px;
+}
+.detailTableTab{
+	margin-top:20px;
+}
+.detailTableTab strong{
+	border:1px solid #9ab6cd;
+	border-bottom:0;
+	background: url('../imgs/backX.gif') repeat-x;
+	background-position: 0 -1380px;
+	display:inline-block;
+	font-weight:600;
+	margin-left:10px;
+	padding:5px 20px;
+	position:relative;
+	top:1px;
+}
+.detailTable tr th{
+	min-width:180px;
+	overflow-x:auto;
+}
+.detailTable th.checkAllTH{
+	width:1%;
+	min-width:25px;
+}

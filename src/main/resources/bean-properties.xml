@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+
+    <!--
+        <context:component-scan base-package="navi.weixin.yinkai"></context:component-scan>
+    -->
+    <!--
+        <context:component-scan base-package="navi.website.service.impl"></context:component-scan>
+    -->
+
+
+    <bean id="propertyPlaceholderConfigurer"
+          class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:jdbc.properties</value>
+                <value>classpath:jedis.properties</value>
+            </list>
+        </property>
+    </bean>
+
+
+</beans>
